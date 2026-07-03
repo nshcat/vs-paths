@@ -1,4 +1,11 @@
 {
     "block-pathdiamondstone-*": "Stone path (Diamond pattern)",
-    "block-pathdiamondwood-*": "Wooden path (Diamond pattern)"
+    "block-pathdiamondwood-*": "Wooden path (Diamond pattern)",
+    "block-pathparkettwood-*": "Wooden path (Parquet pattern)",
+    "block-pathparkettstone-*": "Stone path (Parquet pattern)",
+    "block-pathkachelnwood-*": "Wooden path (Tile pattern)",
+    "block-pathkachelnstone-*": "Stone path (Tile pattern)",
+    
+    "block-pathmosaikstonestoneplatte-*": "Stone path (Mosaic pattern)",
+    "block-pathmixedstonesstonecobble-*": "Stone path (Mixed stones on cobblestone)"
 }

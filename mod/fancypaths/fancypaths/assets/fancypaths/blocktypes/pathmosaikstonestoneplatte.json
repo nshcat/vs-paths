@@ -1,0 +1,44 @@
+{
+  code: "pathmosaikstonestoneplatte",
+  class: "Block",
+  variantgroups: [
+    { code: "rock1", "loadFromProperties": "block/rock" },
+    { code: "rock2", "loadFromProperties": "block/rock" }
+  ],
+  behaviors: [
+    {
+      name: "Unstable"
+    }
+  ],
+  shape: { base: "fancypaths:block/path-stone-stone-mosaik-platte" },
+  drawtype: "json",
+  renderpass: "BlendNoCull",
+  blockmaterial: "Stone",
+  creativeinventory: { "general": ["*"], "construction": ["*"] },
+  replaceable: 200,
+  resistance: 0.4,
+  lightAbsorption: 0,
+  walkspeedmultiplier: 1.12,
+  collisionbox: { x1: 0, y1: 0, z1:0, x2: 1, y2: 0.0625, z2: 1 },
+  selectionbox: { x1: 0, y1: 0, z1:0, x2: 1, y2: 0.0625, z2: 1 },
+  sidesolid: { all: false },
+  sideopaque: { all: false },
+  textures: {
+    texture: { base: "game:block/stone/rock/{rock1}*" },
+    texture1: { base: "game:block/stone/rock/{rock2}*" }
+  },
+  sounds: {
+    walk: "game:walk/stone",
+    byTool: {
+      "Pickaxe": { hit: "game:block/rock-hit-pickaxe", break: "game:block/rock-break-pickaxe" }
+    }
+  },
+  heldTpIdleAnimation: "holdbothhandslarge",
+  heldRightReadyAnimation: "heldblockready",
+  heldTpUseAnimation: "twohandplaceblock",
+  tpHandTransform: {
+    translation: { x: -1.7, y: -1.9, z: -0.8 },
+    rotation: { x: 82, y: 15, z: -63 },
+    scale: 0.4
+  }
+}

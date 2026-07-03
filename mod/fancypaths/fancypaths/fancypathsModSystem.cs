@@ -1,4 +1,6 @@
-﻿using Vintagestory.API.Client;
+﻿using fancypaths.BlockEntities;
+using fancypaths.Blocks;
+using Vintagestory.API.Client;
 using Vintagestory.API.Server;
 using Vintagestory.API.Config;
 using Vintagestory.API.Common;
@@ -12,6 +14,9 @@ public class fancypathsModSystem : ModSystem
     public override void Start(ICoreAPI api)
     {
         Mod.Logger.Notification("Hello from template mod: " + api.Side);
+        
+        api.RegisterBlockClass("fancypaths.BlockGlowingPath", typeof(BlockGlowingPath));
+        api.RegisterBlockEntityClass("fancypaths.BlockEntityGlowingPath", typeof(BlockEntityGlowingPath));
     }
 
     public override void StartServerSide(ICoreServerAPI api)
