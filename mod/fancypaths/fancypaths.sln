@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeBuild", "CakeBuild\CakeBuild.csproj", "{6959F2D2-FE39-4D55-B31A-FEE25863A20D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fancypaths", "fancypaths\fancypaths.csproj", "{93DF7BAD-F643-481C-86DB-37D708235614}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6959F2D2-FE39-4D55-B31A-FEE25863A20D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6959F2D2-FE39-4D55-B31A-FEE25863A20D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6959F2D2-FE39-4D55-B31A-FEE25863A20D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6959F2D2-FE39-4D55-B31A-FEE25863A20D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93DF7BAD-F643-481C-86DB-37D708235614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93DF7BAD-F643-481C-86DB-37D708235614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93DF7BAD-F643-481C-86DB-37D708235614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93DF7BAD-F643-481C-86DB-37D708235614}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
